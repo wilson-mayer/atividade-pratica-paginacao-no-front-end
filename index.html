@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de recados</title>
+  </head>
+  <body>
+    <button id="anterior" onclick="paginaAnterior()">Anterior</button>
+    <button id="proximo" onclick="proximaPagina()">Próximo</button>
+    <div id="lista-recados"></div>
+    <div id="pagina-atual"></div>
+    <span id="erro"></span>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./api.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
